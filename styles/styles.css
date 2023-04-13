@@ -2,23 +2,56 @@
     margin: 0px;
     padding:  0px;
     box-sizing: border-box;
+
 }
 body {
+    background-color: #E0F5EE;
 
 
 }
 
 .rodape{
     background-image: url("../assets/footer.png");
-    background-position: center;
-    background-size: cover;
+    background-size:100vmax;
+    background-position:center center;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    font-size: 18px;
+    text-decoration: none;
     background-repeat: no-repeat;
-    background-position: center top;
     width: 100vw; 
     height: 100vh;
-   
-  
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #27344F;
+    text-align: center;
+    line-height: 180%;
+}
+.rodape__tabela{
+    
+    
+}
+.rodape__link{
+    
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #27344F;
+    text-align: center;
+    width: 15vw; 
+    line-height: 180%;
+}
+.rodape__link__link{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.0rem;
+    font-weight: 550;
+    align-items: center;
+    text-decoration: none;
+    color: #27344F;
+
+}
+.rodape__link__link:hover{
+    background-color: #74acbf ;
+    
 }
