@@ -2,33 +2,100 @@
     margin: 0px;
     padding:  0px;
     box-sizing: border-box;
-
+    text-decoration: none;
+    
 }
 body {
-    background-color: #E0F5EE;
-
-
-}
-
-.rodape{
     background-image: url("../assets/footer.png");
     background-size:100vmax;
     background-position:center center;
     background-repeat:no-repeat;
-    background-attachment: fixed;
+    background-attachment:fixed;
     text-decoration: none;
     background-repeat: no-repeat;
-    width: 100vw; 
-    height: 100vh;
+    background-color: #E0F5EE;
+
+}
+.cabecalho__tabela{
+    text-decoration: none;
+    text-align: left;
+    color: #27344F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    line-height: 180%;
+    padding:   5px;
+    margin-left: 135px;
+}
+i{
+    padding:   4px;
+
+}
+    
+.cabecalho__tabela__imagem{
+    width: 140px;
+    height: 85px;
+    margin-top: 55px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 135px;
+    
+}
+.cabecalho__tabela__icone{
+    
+    text-decoration: none;
+    text-align: left;
+    color: #27344F;
+    width: 70%;
+    height: 70%;
+;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+}   
+.cabecalho__tabela__botao{
+    background: #E0F5EE;
+	font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+	font-weight: 600;
+    border: 2px solid #E0F5EE;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+    text-decoration: none;
+    
+    padding:   10px;
+    
+    
+}  
+
+
+.cabecalho__tabela__botao:hover{
+    
+    background-color: #74acbf ;
+    
+}
+.rodape{  
+        
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
     color: #27344F;
     text-align: center;
-    line-height: 180%;
+    float: right;
+    display: block;
+    width: 100%;
+   bottom: 0;
+   position:absolute;
+    
 }
 .rodape__tabela{
     
+    float: right;
+    margin: 0px 10% 20px 0px;
     
+    
+
 }
 .rodape__link{
     
@@ -39,19 +106,27 @@ body {
     color: #27344F;
     text-align: center;
     width: 15vw; 
-    line-height: 180%;
+    padding-bottom: 15px;
+    
+    
 }
 .rodape__link__link{
+   
     font-family: 'Roboto', sans-serif;
-    text-align: center;
+    text-align: center center;
     font-size: 1.0rem;
     font-weight: 550;
     align-items: center;
     text-decoration: none;
     color: #27344F;
+    padding-bottom: 15px;
+    
+    
 
 }
 .rodape__link__link:hover{
+    
     background-color: #74acbf ;
     
 }
+
