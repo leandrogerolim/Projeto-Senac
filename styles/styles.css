@@ -87,13 +87,15 @@ i{
     width: 100%;
    bottom: 0;
    position:absolute;
-    
+    text-align: center center;
+    overflow: hidden;
 }
 .rodape__tabela{
     
     float: right;
-    margin: 0px 10% 20px 0px;
+    margin: 0px 11% 10px 0px;
     
+    overflow: hidden;
     
 
 }
@@ -105,9 +107,9 @@ i{
     font-family: 'Roboto', sans-serif;
     color: #27344F;
     text-align: center;
-    width: 15vw; 
+    width: 17vw; 
     padding-bottom: 15px;
-    
+   
     
 }
 .rodape__link__link{
@@ -120,13 +122,21 @@ i{
     text-decoration: none;
     color: #27344F;
     padding-bottom: 15px;
+    padding-top: 15px;
+  
+    text-align: center;
+    margin:auto;
     
-    
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+   
 
 }
 .rodape__link__link:hover{
     
     background-color: #74acbf ;
-    
+  
 }
 
